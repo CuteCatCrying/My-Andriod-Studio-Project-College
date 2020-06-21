@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".SecondActivity">
+
+        <TextView
+            android:id="@+id/second_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/sec_title"
+            android:textColor="@color/colorAccent"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/second_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/second_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="@string/sec_subtitle"
+            android:textSize="20sp"
+            />
+
+        <LinearLayout
+            android:id="@+id/checkbox_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/second_subtitle"
+            android:layout_centerHorizontal="true"
+            android:orientation="vertical"
+            >
+
+            <CheckBox
+                android:id="@+id/checkbox_java"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cb_java"
+                android:textSize="20sp"
+                />
+
+            <CheckBox
+                android:id="@+id/checkbox_php"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cb_php"
+                android:textSize="20sp"
+                />
+
+            <CheckBox
+                android:id="@+id/checkbox_python"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cb_python"
+                android:textSize="20sp"
+                />
+
+            <CheckBox
+                android:id="@+id/checkbox_perl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cb_perl"
+                android:textSize="20sp"
+                />
+
+            <CheckBox
+                android:id="@+id/checkbox_ruby"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cb_ruby"
+                android:textSize="20sp"
+                />
+
+            <CheckBox
+                android:id="@+id/checkbox_xml"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/cb_xml"
+                android:textSize="20sp"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/second_program"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/checkbox_layout"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:text="@string/sec_program"
+            android:textSize="20sp"
+            />
+
+        <Spinner
+            android:id="@+id/skill_spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/second_program"
+            />
+
+        <Button
+            android:id="@+id/btn_second_proses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/skill_spinner"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:onClick="prosesSecondActivity"
+            android:text="@string/sec_proses"
+            />
+
+        <TextView
+            android:id="@+id/txt_output"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_second_proses"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:text="@string/output"
+            android:textSize="20sp"
+            />
+
+    </RelativeLayout>
+</ScrollView>

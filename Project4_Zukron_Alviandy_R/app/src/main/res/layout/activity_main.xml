@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/transaksi_jual_beli"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1">
+
+        <TableRow>
+
+            <TextView android:text="@string/nama_barang" />
+
+            <EditText
+                android:id="@+id/edit_nama_barang"
+                android:inputType="text" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:text="@string/satuan" />
+
+            <Spinner android:id="@+id/spin_satuan"
+                android:entries="@array/satuan"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:text="@string/jumlah" />
+
+            <EditText
+                android:id="@+id/edit_jumlah"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:text="@string/harga" />
+
+            <EditText
+                android:id="@+id/edit_harga"
+                android:inputType="number" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView android:text="@string/bayar" />
+
+            <RadioGroup
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RadioButton
+                    android:id="@+id/rb_cash"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/cash" />
+
+                <RadioButton
+                    android:id="@+id/rb_credit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/credit" />
+
+                <RadioButton
+                    android:id="@+id/rb_atm"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/atm" />
+            </RadioGroup>
+        </TableRow>
+    </TableLayout>
+
+    <Button
+        android:id="@+id/btn_proses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/proses"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btn_list_activity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/list_view"
+        android:textSize="24sp"/>
+</LinearLayout>

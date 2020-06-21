@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Project3_Zukron_Alviandy_R</string>
+    <string name="spinner1">Job Skill</string>
+    <string name="spinner2">Programming Language</string>
+    <string name="submit">Submit</string>
+    <string name="exit">Exit</string>
+    <string name="date_picker">Date Picker</string>
+
+    <string-array name="array_skill">
+        <item>Basic</item>
+        <item>Intermediate</item>
+        <item>Advance</item>
+    </string-array>
+
+    <string name="tanggal">Tanggal</string>
+</resources>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Project_HW_Hotel</string>
+    <string name="title">Transaksi Kamar Hotel</string>
+    <string name="subtitle">"HotelKu"</string>
+    <string name="kode_transaksi">Kode Transaksi</string>
+    <string name="no_kamar">No Kamar</string>
+    <string name="tipe_kamar">Tipe Kamar</string>
+    <string name="rb_executive">Executive</string>
+    <string name="rb_standard">Standard</string>
+    <string name="rb_deluxe">Deluxe</string>
+    <string name="rb_economic">Economic</string>
+    <string name="harga_kamar">Harga Kamar</string>
+    <string name="tambahan_fasilitas">Tambahan Fasilitas</string>
+    <string name="cb_bed">Bed</string>
+    <string name="cb_towel">Towel</string>
+    <string name="lama_menginap">Lama Menginap</string>
+    <string name="hari">Hari</string>
+    <string name="pembayaran">Pembayaran</string>
+    <string name="jumlah_customer">Jumlah Customer</string>
+    <string name="proses">Proses</string>
+    <string name="output">Output</string>
+
+    <string name="tab">\u0009</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_detail_jenis_kamar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        tools:text="Testing"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_detail_harga_kamar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        tools:text="Testing"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tv_detail_ukuran_kamar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        tools:text="Testing"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp"/>
+
+    <ImageView
+        android:id="@+id/iv_detail_gambar_kamar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/kamar1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:text="@string/fasilitas"
+        android:textColor="@android:color/holo_red_dark"/>
+
+    <TextView
+        android:id="@+id/tv_detail_fasilitas_kamar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        tools:text="Testing"
+        android:textColor="@android:color/holo_red_dark"/>
+</LinearLayout>

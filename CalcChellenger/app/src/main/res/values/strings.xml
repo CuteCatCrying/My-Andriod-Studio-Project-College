@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CalcChellenger</string>
+    <string name="calculator_challenge">Calculator Challenge</string>
+    <string name="tambah">+</string>
+    <string name="sama_dengan">=</string>
+    <string name="check_result">Cek Hasil</string>
+</resources>

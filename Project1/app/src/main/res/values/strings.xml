@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Project1</string>
+    <string name="title">First Application</string>
+    <string name="name">Input Name</string>
+    <string name="iclass">Input Class</string>
+    <string name="submit">Submit</string>
+    <string name="output">Output</string>
+</resources>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Project_4_Zukron_Alviandy_R</string>
+    <string name="nama_barang">Nama Barang</string>
+    <string name="satuan">Satuan</string>
+    <string name="jumlah">Jumlah</string>
+    <string name="harga">Harga</string>
+    <string name="bayar">Bayar</string>
+    <string name="cash">Cash</string>
+    <string name="credit">Credit</string>
+    <string name="atm">ATM</string>
+    <string name="transaksi_jual_beli">Transaksi Jual Beli</string>
+    <string name="proses">Proses</string>
+    <string name="output">Output</string>
+    <string name="list_pahlawan">List Pahlawan</string>
+    <string name="list_view">List View</string>
+
+
+    <string-array name="satuan">
+        <item>Kodi</item>
+        <item>KG</item>
+        <item>Lusin</item>
+        <item>Sachet</item>
+    </string-array>
+</resources>

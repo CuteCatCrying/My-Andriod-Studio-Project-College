@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/title"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tv_tanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:text="@string/tanggal" />
+
+        <DatePicker
+            android:id="@+id/date_picker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_tanggal"
+            android:datePickerMode="spinner" />
+
+        <TableLayout
+            android:id="@+id/table_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/date_picker"
+            android:stretchColumns="1">
+
+            <TableRow>
+
+                <TextView android:text="@string/id_karayawan" />
+
+                <EditText android:id="@+id/edit_id_karyawan" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView android:text="@string/bagian" />
+
+                <Spinner android:id="@+id/spin_bagian" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView android:text="@string/gaji" />
+
+                <LinearLayout android:orientation="vertical">
+
+                    <CheckBox
+                        android:id="@+id/cb_pokok"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/pokok" />
+
+                    <CheckBox
+                        android:id="@+id/cb_tunjangan_anak"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tunjangan_anak" />
+
+                    <CheckBox
+                        android:id="@+id/cb_tunjangan_transportasi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tunjangan_transportasi" />
+
+                    <CheckBox
+                        android:id="@+id/cb_tunjangan_makan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/tunjangan_makan" />
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView android:text="@string/status" />
+
+                <Spinner android:id="@+id/spin_status" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView android:text="@string/jenis_kelamin" />
+
+                <RadioGroup android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rb_laki_laki"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/laki_laki" />
+
+                    <RadioButton
+                        android:id="@+id/rb_perempuan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/perempuan" />
+                </RadioGroup>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView android:text="@string/status_karyawan" />
+
+                <Spinner android:id="@+id/spin_status_karyawan" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView android:text="@string/jumlah_anak" />
+
+                <EditText
+                    android:id="@+id/edit_jumlah_anak"
+                    android:inputType="number" />
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:id="@+id/btn_proses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/table_data"
+            android:text="@string/proses" />
+
+        <TextView
+            android:id="@+id/tv_output"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_proses"
+            android:layout_marginBottom="20dp"
+            android:text="Output"
+            android:textSize="12sp"/>
+    </RelativeLayout>
+</ScrollView>

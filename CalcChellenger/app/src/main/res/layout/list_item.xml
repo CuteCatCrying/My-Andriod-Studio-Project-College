@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tool="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TableRow>
+        <TextView
+            android:id="@+id/tv_angka1"
+            android:layout_width="100dp"
+            android:gravity="center"
+            android:textSize="30sp"
+            tool:text="1"
+            />
+
+        <TextView
+            android:layout_width="30dp"
+            android:gravity="center"
+            android:text="@string/tambah"
+            android:textSize="30sp"
+            />
+
+        <TextView
+            android:id="@+id/tv_angka2"
+            android:layout_width="100dp"
+            android:gravity="center"
+            android:textSize="30sp"
+            tool:text="34"/>
+
+        <TextView
+            android:layout_width="30dp"
+            android:gravity="center"
+            android:text="@string/sama_dengan"
+            android:textSize="30sp"/>
+
+        <EditText
+            android:id="@+id/et_input"
+            android:layout_width="100dp"
+            android:inputType="number"
+            android:textSize="30sp" />
+    </TableRow>
+</TableLayout>

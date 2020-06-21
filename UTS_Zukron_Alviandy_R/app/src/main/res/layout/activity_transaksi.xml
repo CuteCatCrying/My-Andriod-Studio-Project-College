@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="@string/pemesanan_hotel"
+            android:textSize="20sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:stretchColumns="1">
+
+            <TableRow>
+
+                <TextView android:text="@string/id" />
+
+                <EditText android:id="@+id/edit_id" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView android:text="@string/tanggal_check_in" />
+            </TableRow>
+
+            <TableRow>
+
+                <DatePicker
+                    android:id="@+id/date_picker_check_in"
+                    android:layout_span="2"
+                    android:datePickerMode="calendar" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView android:text="@string/jenis_kamar" />
+
+                <Spinner
+                    android:id="@+id/spin_jenis_kamar"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView android:text="@string/lama_menginap" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <EditText
+                        android:id="@+id/edit_lama_menginap"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:inputType="number" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/hari"/>
+                </LinearLayout>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView android:text="@string/harga_sewa_hari" />
+
+                <EditText
+                    android:id="@+id/edit_harga_sewa"
+                    android:inputType="number" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView android:text="@string/jenis_kelamin" />
+
+                <RadioGroup
+                    android:orientation="horizontal">
+                    <RadioButton
+                        android:id="@+id/rb_laki"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/laki_laki" />
+
+                    <RadioButton
+                        android:id="@+id/rb_perempuan"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/perempuan" />
+                </RadioGroup>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView android:text="@string/jumlah_orang" />
+
+                <Spinner
+                    android:id="@+id/spin_jumlah_orang"/>
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:text="@string/tambahan"
+                    android:textStyle="bold" />
+
+                <TableLayout>
+
+                    <TableRow>
+
+                        <CheckBox
+                            android:id="@+id/cb_restorant"
+                            android:text="@string/restorant" />
+
+                        <EditText
+                            android:id="@+id/edit_restorant"
+                            android:layout_width="100dp"
+                            android:inputType="number" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <CheckBox
+                            android:id="@+id/cb_laundry"
+                            android:text="@string/laundry" />
+
+                        <EditText
+                            android:id="@+id/edit_laundry"
+                            android:layout_width="100dp"
+                            android:inputType="number" />
+                    </TableRow>
+
+                    <TableRow>
+
+                        <CheckBox
+                            android:id="@+id/cb_extra_bed"
+                            android:text="@string/extra_bed" />
+
+                        <EditText
+                            android:id="@+id/edit_extra_bed"
+                            android:layout_width="100dp"
+                            android:inputType="number" />
+                    </TableRow>
+                </TableLayout>
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:id="@+id/btn_proses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/proses" />
+    </LinearLayout>
+</ScrollView>

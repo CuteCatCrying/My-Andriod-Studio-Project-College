@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="20dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="@string/pemesanan_hotel"
+        android:textSize="20sp"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+            <TextView android:text="@string/id"/>
+            <TextView
+                android:layout_marginStart="10dp"
+                android:text="@string/titik_dua"/>
+            <TextView
+                android:layout_marginStart="15dp"
+                android:id="@+id/tv_id"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="@string/tanggal_check_in"/>
+            <TextView
+                android:layout_marginStart="10dp"
+                android:text="@string/titik_dua"/>
+            <TextView
+                android:layout_marginStart="15dp"
+                android:id="@+id/tv_check_in"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="@string/jenis_kamar"/>
+            <TextView
+                android:layout_marginStart="10dp"
+                android:text="@string/titik_dua"/>
+            <TextView
+                android:layout_marginStart="15dp"
+                android:id="@+id/tv_jenis_kamar"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="@string/lama_menginap"/>
+            <TextView
+                android:layout_marginStart="10dp"
+                android:text="@string/titik_dua"/>
+            <TextView
+                android:layout_marginStart="15dp"
+                android:id="@+id/tv_lama_menginap"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="@string/harga_sewa_hari"/>
+            <TextView
+                android:layout_marginStart="10dp"
+                android:text="@string/titik_dua"/>
+            <TextView
+                android:layout_marginStart="15dp"
+                android:id="@+id/tv_harga_sewa"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="@string/jumlah_orang"/>
+            <TextView
+                android:layout_marginStart="10dp"
+                android:text="@string/titik_dua"/>
+            <TextView
+                android:layout_marginStart="15dp"
+                android:id="@+id/tv_jumlah_orang"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="@string/tambahan"/>
+            <TextView
+                android:layout_marginStart="10dp"
+                android:text="@string/titik_dua"/>
+            <TextView
+                android:layout_marginStart="15dp"
+                android:id="@+id/tv_tambahan"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="@string/total"/>
+            <TextView
+                android:layout_marginStart="10dp"
+                android:text="@string/titik_dua"/>
+            <TextView
+                android:layout_marginStart="15dp"
+                android:id="@+id/tv_total"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="@string/pajak_5"/>
+            <TextView
+                android:layout_marginStart="10dp"
+                android:text="@string/titik_dua"/>
+            <TextView
+                android:layout_marginStart="15dp"
+                android:id="@+id/tv_pajak"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:text="@string/total_bayar"/>
+            <TextView
+                android:layout_marginStart="10dp"
+                android:text="@string/titik_dua"/>
+            <TextView
+                android:layout_marginStart="15dp"
+                android:id="@+id/tv_total_bayar"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

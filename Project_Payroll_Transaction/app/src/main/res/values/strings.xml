@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Project Payroll Transaction</string>
+    <string name="title">Payroll Transaction</string>
+    <string name="tanggal">Tanggal</string>
+    <string name="id_karayawan">Id Karayawan</string>
+    <string name="bagian">Bagian</string>
+    <string name="gaji">Gaji</string>
+    <string name="pokok">Pokok</string>
+    <string name="tunjangan_anak">Tunjangan Anak</string>
+    <string name="tunjangan_transportasi">Tunjangan Transportasi</string>
+    <string name="tunjangan_makan">Tunjangan Makan</string>
+    <string name="status">Status</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="laki_laki">Laki-Laki</string>
+    <string name="perempuan">Perempuan</string>
+    <string name="status_karyawan">Status Karyawan</string>
+    <string name="proses">Proses</string>
+    <string name="jumlah_anak">Jumlah Anak</string>
+</resources>

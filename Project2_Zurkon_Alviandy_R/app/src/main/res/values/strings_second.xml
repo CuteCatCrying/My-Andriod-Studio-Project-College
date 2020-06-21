@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="sec_title">IT Skill</string>
+    <string name="sec_subtitle">Programming Language Skill</string>
+    <string name="cb_java">Java</string>
+    <string name="cb_php">PHP</string>
+    <string name="cb_python">Python</string>
+    <string name="cb_perl">Perl</string>
+    <string name="cb_ruby">Ruby</string>
+    <string name="cb_xml">XML</string>
+    <string name="sec_program">Programming skill</string>
+    <string name="sec_proses">Proses</string>
+    <string name="output">Output</string>
+</resources>

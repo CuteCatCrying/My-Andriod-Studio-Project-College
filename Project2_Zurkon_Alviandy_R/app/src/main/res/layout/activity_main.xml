@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:text="@string/title"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/txt_kode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/title"
+            android:layout_marginTop="100dp"
+            android:text="@string/kode"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/edit_kode"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_kode"
+            />
+
+        <TextView
+            android:id="@+id/txt_barang"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_kode"
+            android:text="@string/barang"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/edit_barang"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_barang"
+            />
+
+        <TextView
+            android:id="@+id/txt_satuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_barang"
+            android:text="@string/satuan"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/edit_satuan"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_satuan"
+            />
+
+        <TextView
+            android:id="@+id/txt_beli"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_satuan"
+            android:text="@string/beli"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            />
+
+        <EditText
+            android:id="@+id/edit_beli"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_beli"
+            />
+
+        <TextView
+            android:id="@+id/txt_tipe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/edit_beli"
+            android:text="@string/tipe_satuan"
+            android:textStyle="bold"
+            />
+
+        <RadioGroup
+            android:id="@+id/rgTipeSatuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_tipe"
+            android:orientation="horizontal">
+            <RadioButton
+                android:id="@+id/rbKg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rb_kg"
+                />
+            <RadioButton
+                android:id="@+id/rbGram"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/rb_gram"
+                />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_proses"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/rgTipeSatuan"
+            android:layout_marginTop="20dp"
+            android:text="@string/proses"
+            />
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_proses"
+            android:layout_centerHorizontal="true"
+            android:text="@string/next"
+            android:textSize="30sp"
+            android:textStyle="bold|italic"
+            />
+
+        <TextView
+            android:id="@+id/txt_transaksi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/btn_next"
+            android:text="@string/transaksi"
+            />
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Project2_Zurkon_Alviandy_R</string>
+    <string name="title">Pembelian Barang</string>
+    <string name="kode">Kode</string>
+    <string name="barang">Nama Barang</string>
+    <string name="satuan">Harga Satuan</string>
+    <string name="beli">Jumlah Beli</string>
+    <string name="proses">Proses</string>
+    <string name="transaksi">Transaksi nama barang</string>
+    <string name="next">Next</string>
+    <string name="tipe_satuan">Tipe Satuan</string>
+    <string name="rb_kg">Kg</string>
+    <string name="rb_gram">Gram</string>
+</resources>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">UTS_Zukron_Alviandy_R</string>
+    <string name="pemesanan_hotel">Pemesanan Hotel</string>
+    <string name="zera_hotel">Zera Hotel</string>
+    <string name="exit">Exit</string>
+    <string name="id">ID</string>
+    <string name="tanggal_check_in">Tanggal Check In</string>
+    <string name="tanggal_check_out">Tanggal Check Out</string>
+    <string name="jenis_kamar">Jenis Kamar</string>
+    <string name="harga_sewa_hari">Harga Sewa/Hari</string>
+    <string name="jenis_kelamin">Jenis Kelamin</string>
+    <string name="laki_laki">Laki laki</string>
+    <string name="perempuan">Perempuan</string>
+    <string name="jumlah_orang">Jumlah Orang</string>
+    <string name="tambahan">TAMBAHAN</string>
+    <string name="restorant">Restorant</string>
+    <string name="laundry">Laundry</string>
+    <string name="extra_bed">Extra Bed</string>
+    <string name="proses">Proses</string>
+    <string name="lama_menginap">Lama Menginap</string>
+    <string name="titik_dua">:</string>
+    <string name="total">Total</string>
+    <string name="pajak_5">Pajak 5%</string>
+    <string name="total_bayar">Total Bayar</string>
+    <string name="hari">Hari</string>
+    <string name="fasilitas">Fasilitas : </string>
+    <string name="welcome_to_zera_hotel">Welcome To Zera Hotel</string>
+</resources>

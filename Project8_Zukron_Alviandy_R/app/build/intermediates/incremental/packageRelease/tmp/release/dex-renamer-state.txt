@@ -1,0 +1,4 @@
+#Tue May 19 12:51:10 WIB 2020
+base.0=/home/lolihunter/Android-Studio-Dicoding/Project8_Zukron_Alviandy_R/app/build/intermediates/dex/release/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
